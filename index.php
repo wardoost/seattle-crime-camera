@@ -43,14 +43,6 @@
 <?PHP
 //////////// FIRECALLS /////////////
 
-//$url = 'https://data.seattle.gov/resource/kzjm-xkqj.json';
-//$content = file_get_contents($url);
-//$json = json_decode($content, true);
-//$lat = $json[1]["latitude"]; 
-//$lon = $json[1]["longitude"]; 
-//$type = $json[1]["type"];
-//$pointcourse  = 5; 
-
 ///////////  POLICE SEATLE /////////
 $url = 'https://data.seattle.gov/resource/7ais-f98f.json'; 
 //https://data.seattle.gov/resource/3k2p-39jp.json
@@ -158,14 +150,6 @@ function initialize() {
 google.maps.event.addDomListener(window, 'load', initialize);
 
     </script>
-    
-   
-   
-  
-	
-	
-
-
   </head>
   <body>
   
@@ -193,10 +177,8 @@ google.maps.event.addDomListener(window, 'load', initialize);
 </p>
 
 </infoText>
-
 <br>
 
-	
 <div class="fb-like" data-href="https://driesdepoorter.be/here" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
 
 
@@ -206,16 +188,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
   </div>
   
-  
-
-
-
-
-  
   <div id="map-canvas"> </div>
     
-
-
-
   </body>
 </html>
