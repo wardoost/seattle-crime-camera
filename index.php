@@ -14,8 +14,6 @@
     <meta property="fb:admins" content="1276697518"/>
     <meta property="og:description" content="call showing where the police from seattle is working for the moment. "/>
 
-
-
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@driesdepoorter">
 <meta name="twitter:creator" content="@driesdepoorter">
@@ -41,8 +39,6 @@
 
 
 <?PHP
-//////////// FIRECALLS /////////////
-
 ///////////  POLICE SEATLE /////////
 $url = 'https://data.seattle.gov/resource/7ais-f98f.json'; 
 //https://data.seattle.gov/resource/3k2p-39jp.json
@@ -54,16 +50,12 @@ $urlwebcams = 'https://data.seattle.gov/resource/65fc-btcc.json';
 $contenturlwebcams = file_get_contents($urlwebcams);
 $jsonWebcams = json_decode($contenturlwebcams, true);
 
-//print_r();
 $lat = $json[0]["latitude"];
 $lon = $json[0]["longitude"];
 $type = $json[0]["offense_type"];
 $pointcourse  = 5; 
 //print_r($type);
 
-//print_r($lat);
-//print_r($lon);
-//print_r($type);
 
 
 
